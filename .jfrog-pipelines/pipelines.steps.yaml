@@ -11,7 +11,7 @@ pipelines:
         type: Bash
         configuration:
           inputResources:
-            - name: update_prop
+            - name: open_pr 
         execution:
           onStart:
             - echo onStart

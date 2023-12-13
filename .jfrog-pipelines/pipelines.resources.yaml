@@ -1,5 +1,5 @@
 resources:
-  - name:       update_prop
+  - name:       open_pr 
     type:       IncomingWebhook
     configuration:
-      webhookName:  edge_update
+      webhookName: yann_git_events 
