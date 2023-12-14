@@ -1,6 +1,5 @@
 pipelines:
   - name: test_webhook
-    configuration:
     steps:
       - name: my_action
         type: Bash
