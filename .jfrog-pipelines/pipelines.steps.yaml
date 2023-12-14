@@ -1,11 +1,6 @@
 pipelines:
   - name: test_webhook
     configuration:
-      environmentVariables:
-        readOnly:
-          envVarNpmRepo: avengers-npm
-          envVarGenericRepo: avengers-generic
-          envVarGenericPromoteRepo: avengers-rc-generic-local
     steps:
       - name: my_action
         type: Bash
